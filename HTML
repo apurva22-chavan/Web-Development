@@ -1,1 +1,141 @@
+🧩 What is HTML?
+HTML (HyperText Markup Language) is the standard language used to create web pages.
+It defines the structure and layout of a webpage using a system of tags.
 
+🕸️ Example: When you visit any website, what you see (text, images, buttons, forms, etc.) is structured using HTML.
+
+🧱 Basic Structure of an HTML Page
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>This is my first HTML page.</p>
+  </body>
+</html>
+
+Explanation:
+<!DOCTYPE html> → tells the browser this is an HTML5 document.
+<html> → root of the document.
+<head> → contains meta information (like title, CSS, scripts).
+<title> → shows in the browser tab.
+<body> → contains the visible content.
+
+🏷️ HTML Tags and Elements
+🔹 What is a Tag?
+Tags are keywords enclosed in angle brackets (< >).
+Example:
+<p>Paragraph text</p>
+
+🔹 What is an Element?
+An element includes the start tag, content, and end tag.
+
+Example:
+<p>This is an element.</p>
+
+📚 Commonly Used HTML Tags
+Tag	Meaning	Example
+<h1> to <h6>	Headings (h1 = largest)	<h1>Main Title</h1>
+<p>	Paragraph	<p>This is a paragraph.</p>
+<br>	Line Break	Hello<br>World
+<hr>	Horizontal line	<hr>
+<a>	Hyperlink	<a href="https://google.com">Go to Google</a>
+<img>	Image	<img src="photo.jpg" alt="My Photo">
+<ul> / <ol>	Unordered / Ordered list	<ul><li>Apple</li></ul>
+<table>	Table	<table><tr><td>Data</td></tr></table>
+<div>	Division / Section	<div>Content</div>
+<span>	Inline container	<span>Text</span>
+<form>	User input form	<form><input type="text"></form>
+
+🎨 HTML Attributes
+Attributes give extra information about elements.
+Example:
+<img src="image.jpg" alt="Sample image" width="200" height="100">
+
+Attribute	Description	Example
+src	Specifies image source	<img src="img.png">
+href	Link URL	<a href="page.html">Link</a>
+alt	Alternate text for image	<img alt="logo">
+style	Inline CSS styling	<p style="color:red">Text</p>
+id	Unique identifier	<div id="main">
+class	CSS group name	<div class="box">
+
+🧮 Lists in HTML
+Unordered List (bullets):
+<ul>
+  <li>Apple</li>
+  <li>Banana</li>
+</ul>
+
+Ordered List (numbers):
+<ol>
+  <li>First</li>
+  <li>Second</li>
+</ol>
+
+📊 Tables in HTML
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Apurva</td>
+    <td>21</td>
+  </tr>
+</table>
+
+✏️ Forms in HTML
+Used to collect user input (like login or signup forms).
+<form action="submit.php" method="post">
+  <label>Name:</label>
+  <input type="text" name="username"><br>
+  <input type="submit" value="Submit">
+</form>
+
+🌈 Multimedia Tags
+Tag	Purpose	Example
+<img>	Display image	<img src="pic.jpg">
+<audio>	Play audio	<audio controls src="song.mp3"></audio>
+<video>	Play video	<video controls src="movie.mp4"></video>
+
+⚙️ Semantic HTML Tags (HTML5)
+These tags make the structure more meaningful:
+
+Tag	Purpose
+<header>	Top section of a page
+<nav>	Navigation menu
+<section>	Section of content
+<article>	Independent article or post
+<aside>	Sidebar
+<footer>	Bottom section (copyright, links, etc.)
+
+💡 HTML Comments
+Used to add notes that browsers ignore:
+<!-- This is a comment -->
+
+🧠 Advanced Topics
+HTML5 APIs:
+Include features like:
+Geolocation (navigator.geolocation)
+Local Storage (localStorage)
+Canvas (for drawing)
+Drag and Drop
+Audio/Video support
+
+Meta Tags (in <head>):
+<meta charset="UTF-8">
+<meta name="description" content="HTML Tutorial">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Responsive Design: Works with CSS and <meta viewport> for mobile-friendly layouts.
+
+🚀 Summary
+Concept	Description
+HTML	Structures web pages
+Tags	Define elements (like headings, links, etc.)
+Attributes	Provide additional info to elements
+Forms & Tables	Collect and display data
+Semantic tags	Make code cleaner and SEO-friendly
+HTML5	Adds modern features (audio, video, APIs)
