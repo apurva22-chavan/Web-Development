@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar using Flex</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+
+        } */
+        .logo{
+            
+        }
+        .logo img{
+            width: 84px;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .right ul{
+            display: flex;
+            gap: 34px;
+        }
+        .right ul li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://imgs.search.brave.com/RnjzdkZhNRyZvgNbHyzZmUhN9SzK40LSTCFf8iT-knM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zaWgt/bG9nby1zaWgtbGV0/dGVyLXNpaC1sZXR0/ZXItbG9nby1kZXNp/Z24taW5pdGlhbHMt/c2loLWxvZ28tbGlu/a2VkLWNpcmNsZS11/cHBlcmNhc2UtbW9u/b2dyYW0tbG9nby1z/aWgtdHlwb2dyYXBo/eS0zOTQ3NjY0NTMu/anBn" alt="logo">
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Products  </li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>

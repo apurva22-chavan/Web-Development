@@ -1,0 +1,31 @@
+/* body{
+    background-color: rgb(234, 130, 130);
+    color: aliceblue;
+
+}
+td{
+    border: 2px solid black;
+} */
+
+
+/* p{
+    background-color: aqua;
+}
+a{
+    background-color: rgb(212, 189, 233);
+}
+div{
+    background-color: yellow;
+} */
+
+.red{
+ color: red;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+#seconddiv{
+    background-color: rgb(120, 170, 26);
+}
